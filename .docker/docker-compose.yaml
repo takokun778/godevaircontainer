@@ -12,4 +12,5 @@ services:
       PORT: ${PORT}
     volumes:
       - ../:/app
+      - ./go/pkg:/go/pkg
     restart: always
